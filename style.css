@@ -86,7 +86,7 @@ img{max-width:100%;}
   .overview-grid{grid-template-columns:1fr !important;}
   .g-title{font-size:15px !important;}
   .g-meta{font-size:11.5px !important;}
-  .project-title{font-size:17px !important;}
+  .project-title{font-size:15px !important;}
   .project-meta{font-size:11.5px !important;}
 }
 @media (max-width:700px){
