@@ -45,12 +45,11 @@ img{max-width:100%;}
 .project-meta{font-family:'Noto Sans JP',sans-serif;font-weight:300;font-size:13px;color:var(--muted);}
 
 /* gallery */
-.gallery-wrap{position:relative;width:100%;background:var(--panel);}
+.gallery-wrap{width:100%;background:var(--panel);}
 .gallery-img{width:100%;height:auto;max-height:82vh;object-fit:contain;display:block;margin:0 auto;}
-.arrow-btn{position:absolute;top:0;bottom:0;width:64px;border:none;background:none;color:var(--ink);cursor:pointer;display:flex;align-items:center;opacity:.45;transition:opacity .2s;}
+.gallery-nav{display:flex;justify-content:center;align-items:center;gap:40px;padding:14px 0 0;}
+.arrow-btn{border:none;background:none;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:.5;transition:opacity .2s;padding:6px;}
 .arrow-btn:hover{opacity:1;}
-.arrow-btn.left{left:0;justify-content:flex-start;padding-left:14px;}
-.arrow-btn.right{right:0;justify-content:flex-end;padding-right:14px;}
 .arrow-btn svg{width:20px;height:20px;display:block;}
 
 /* overview text */
