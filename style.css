@@ -16,6 +16,9 @@ img{max-width:100%;}
 .navlink{font-family:'Archivo',sans-serif;font-weight:300;font-size:14px;color:var(--sub);padding:4px 0;border-bottom:1px solid transparent;}
 .navlink:hover{color:var(--ink);border-color:var(--ink);}
 .navlink.on{color:var(--ink);border-color:var(--ink);}
+.ig-link{display:flex;align-items:center;color:var(--sub);}
+.ig-link:hover{color:var(--ink);}
+.ig-link svg{width:18px;height:18px;display:block;}
 
 .label{font-family:'Archivo',sans-serif;font-weight:300;font-size:20px;color:var(--ink);}
 
