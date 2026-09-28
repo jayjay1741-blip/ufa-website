@@ -84,10 +84,10 @@ img{max-width:100%;}
   .wrap{padding-left:20px !important;padding-right:20px !important;}
   .about-grid{grid-template-columns:1fr !important;}
   .overview-grid{grid-template-columns:1fr !important;}
-  .g-title{font-size:18px !important;}
-  .g-meta{font-size:12.5px !important;}
-  .project-title{font-size:19px !important;}
-  .project-meta{font-size:12px !important;}
+  .g-title{font-size:15px !important;}
+  .g-meta{font-size:11.5px !important;}
+  .project-title{font-size:17px !important;}
+  .project-meta{font-size:11.5px !important;}
 }
 @media (max-width:700px){
   .works-row{flex-direction:column-reverse;gap:16px;padding:48px 0;}
