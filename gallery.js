@@ -14,5 +14,12 @@ function initGallery(images, opts) {
   prevBtn.addEventListener('click', function () { show(idx - 1); });
   nextBtn.addEventListener('click', function () { show(idx + 1); });
 
+  img.style.cursor = 'pointer';
+  img.addEventListener('click', function (e) {
+    var rect = img.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    if (x < rect.width / 2) { show(idx - 1); } else { show(idx + 1); }
+  });
+
   show(0);
 }
