@@ -60,9 +60,9 @@ img{max-width:100%;}
 
 /* overview text */
 .overview-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;}
-.overview-jp{font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:14.5px;line-height:2;color:var(--sub);}
+.overview-jp{font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:13px;line-height:2;color:var(--muted);}
 .overview-en{font-family:'Noto Sans JP',sans-serif;font-weight:300;font-size:13px;line-height:1.9;color:var(--muted);}
-.overview-heading{font-family:'Archivo',sans-serif;font-weight:500;font-size:17px;color:var(--ink);margin-bottom:20px;}
+.overview-heading{font-family:'Archivo',sans-serif;font-weight:400;font-size:15px;color:var(--ink);margin-bottom:20px;}
 
 /* about */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;}
