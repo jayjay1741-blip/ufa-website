@@ -25,8 +25,17 @@
     </div>
   </div>
 
-  <div style="flex:1;width:100%;background:var(--ground);"></div>
+  <div style="flex:1;width:100%;background:var(--ground);display:flex;align-items:center;justify-content:center;padding:40px 32px;">
+    <img id="top-photo" alt="" style="width:100%;max-width:480px;aspect-ratio:4/3;object-fit:cover;display:block;">
+  </div>
 
 </div>
+<script>
+(function(){
+  var photos = ["assets/top/top-01.jpg", "assets/top/top-02.jpg"];
+  var pick = photos[Math.floor(Math.random() * photos.length)];
+  document.getElementById('top-photo').src = pick;
+})();
+</script>
 </body>
 </html>
