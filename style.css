@@ -71,6 +71,10 @@ img{max-width:100%;}
 .about-role{font-family:'Noto Sans JP',sans-serif;font-size:12px;color:var(--muted);}
 .about-row{display:flex;gap:16px;font-family:'Noto Sans JP',sans-serif;font-size:13.5px;color:var(--sub);}
 .about-year{flex-shrink:0;color:var(--muted);}
+.about-label{font-family:'Archivo',sans-serif;font-weight:600;font-size:11px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;}
+.award-item{display:flex;flex-direction:column;gap:3px;color:var(--sub);}
+.award-item:hover{color:var(--ink);}
+.award-sub{color:var(--muted);font-size:12.5px;}
 
 /* contact */
 .field label{font-family:'Archivo',sans-serif;font-weight:600;font-size:11px;letter-spacing:.06em;color:var(--muted);}
